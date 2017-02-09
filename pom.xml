@@ -810,6 +810,7 @@
   </build>
 
   <distributionManagement>
+	<!--
     <repository>
       <id>apache.releases.https</id>
       <name>Apache Release Distribution Repository</name>
@@ -825,6 +826,17 @@
       <id>apache.website</id>
       <url>${tomcat-maven.siteUrlDeployment}</url>
     </site>
+    -->
+    <repository>
+        <id>local.repo</id>
+        <name>Local Repository</name>
+        <url>file://${project.build.directory}/repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>local.snapshot.repo</id>
+        <name>Local Snapshot Repository</name>
+        <url>file://${project.build.directory}/snapshot-repo</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <reporting>
