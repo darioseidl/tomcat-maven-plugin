@@ -1200,6 +1200,8 @@ public abstract class AbstractRunMojo
 
                     httpsConnector.setUseBodyEncodingForURI( this.useBodyEncodingForURI );
 
+                    httpsConnector.setURIEncoding( uriEncoding );
+
                     if ( address != null)
                     {
                         httpsConnector.setAttribute( "address", address );
