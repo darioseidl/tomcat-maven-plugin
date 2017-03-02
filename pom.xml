@@ -28,7 +28,7 @@
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.tomcat.maven</groupId>
+  <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
   <artifactId>tomcat-maven-plugin</artifactId>
   <packaging>pom</packaging>
   <name>Apache Tomcat Maven Plugin</name>
