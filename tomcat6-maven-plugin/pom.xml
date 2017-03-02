@@ -45,7 +45,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
+      <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
       <artifactId>common-tomcat-maven-plugin</artifactId>
     </dependency>
     <dependency>
@@ -174,7 +174,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
+      <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
       <artifactId>tomcat-maven-plugin-it</artifactId>
       <scope>test</scope>
     </dependency>

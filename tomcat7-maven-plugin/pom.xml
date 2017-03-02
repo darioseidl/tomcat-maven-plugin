@@ -154,11 +154,11 @@
 
 
     <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
+      <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
       <artifactId>common-tomcat-maven-plugin</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
+      <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
       <artifactId>tomcat7-war-runner</artifactId>
     </dependency>
     <dependency>
@@ -216,7 +216,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
+      <groupId>com.github.darioseidl.tomcat-maven-plugin</groupId>
       <artifactId>tomcat-maven-plugin-it</artifactId>
       <scope>test</scope>
     </dependency>
