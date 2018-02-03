@@ -1,6 +1,6 @@
 Fork of tomcat-maven-plugin with fix for https://issues.apache.org/jira/browse/MTOMCAT-264 (uriEncoding parameter not working with https).
 
-Hosted on 
+Hosted on jitpack.io.
 
 # Usage
 
